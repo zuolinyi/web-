@@ -1,0 +1,174 @@
+﻿<!DOCTYPE hyml>
+<html>
+<head>
+	<title>注册</title>
+	<meta http-equiv="Content-type"
+	content="text/html" charset="UTF-8"/>
+</head>
+<body>
+<form>
+	<table border="1" align="center" cellspacing="0" cellpadding="3">
+	<tr>
+		<td height="30px" width="100px">用户名：</td>
+		<td height="30px" width="300px">
+			<input type="text" name="name"/>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">密码：</td>
+		<td height="30px" width="300px">
+			<input type="password" name="password"/>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">确认密码：</td>
+		<td height="30px" width="300px">
+			<input type="password" name="checkpassword">
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">性别：</td>
+		<td height="30px" width="300px">
+			<input type="radio" name="sex" checked="checked" value="male"/>男
+			<input type="radio" name="sex" value="female"/>女
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">生日：</td>
+		<td height="30px" width="300px">
+			<select name="choosetime">
+			<option value="">公历</option>
+			<option value="">农历</option>
+			</select>
+			<select name="year">
+			<option value="year">年</option>
+			<option value="year">1996年</option>
+			<option value="year">1997年</option>
+			<option value="year">1998年</option>
+			<option value="year">1999年</option>
+			<option value="year">2000年</option>
+			</select>
+			<select name="month">
+			<option value="month">月</option>
+			<option value="month">1月</option>
+			<option value="month">2月</option>
+			<option value="month">3月</option>
+			<option value="month">4月</option>
+			<option value="month">5月</option>
+			<option value="month">6月</option>
+			<option value="month">7月</option>
+			<option value="month">8月</option>
+			<option value="month">9月</option>
+			<option value="month">10月</option>
+			<option value="month">11月</option>
+			<option value="month">12月</option>
+			</select>
+			<select name="data">
+			<option value="data">日</option>
+			<option value="data">1</option>
+			<option value="data">2</option>
+			<option value="data">3</option>
+			<option value="data">4</option>
+			<option value="data">5</option>
+			<option value="data">6</option>
+			<option value="data">6</option>
+			<option value="data">7</option>
+			<option value="data">8</option>
+			<option value="data">9</option>
+			<option value="data">10</option>
+			<option value="data">11</option>
+			<option value="data">12</option>
+			<option value="data">13</option>
+			<option value="data">14</option>
+			<option value="data">15</option>
+			<option value="data">16</option>
+			<option value="data">17</option>
+			<option value="data">18</option>
+			<option value="data">19</option>
+			<option value="data">20</option>
+			<option value="data">21</option>
+			<option value="data">22</option>
+			<option value="data">23</option>
+			<option value="data">24</option>
+			<option value="data">25</option>
+			<option value="data">26</option>
+			<option value="data">27</option>
+			<option value="data">28</option>
+			<option value="data">29</option>
+			<option value="data">30</option>
+			<option value="data">31</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">所在地：</td>
+		<td height="30px" width="300px">
+			<select name="country">
+				<option value="china">中国</option>
+				<option value="america">美国</option>
+			</select>
+			<select name="state">
+				<option value="state">河北</option>
+				<option value="state">河南</option>
+			</select>
+			<select name="city">
+				<option value="city">石家庄</option>
+				<option value="city">郑州</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td hright="30px" width="100px">验证码：</td>
+		<td height="30px" width="300px">
+			<input type="text" name="check"/>
+			<img src="images/yanzhengma.jpg" height="18px" width="60px">
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">证件类型：</td>
+		<td height="30px" width="300px">
+		<select name="book">
+				<option value="book">身份证</option>
+				<option value="book">户口本</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">证件号：</td>
+		<td height="30px" width="300px">
+			<input type="text" name="number"/>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">爱好：</td>
+		<td height="30px" width="300px">
+			<input type="checkbox" name="like" value="music"/>音乐
+			<input type="checkbox" checked="checked" name="like" value="read"/>读书
+			<input type="checkbox" checked="checked" name="like" value="dance"/>跳舞
+			<input type="checkbox" name="like" value="chess"/>下棋
+			<input type="checkbox" name="like" value="other"/>其他
+		</td>
+	</tr>
+	<tr>
+		<td height="100px" width="100px">说明：</td>
+		<td height="100px" width="300px">
+			<textarea rows="6" cols="30"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px">上传头像：</td>
+		<td height="30px" width="300px">
+			<input type="file" name="img"/>
+		</td>
+	</tr>
+	<tr>
+		<td height="30px" width="100px" colspan="2" align="center">
+			<input type="submit" value="提交"/>
+			<input type="reset"/>
+			<input type="button" value="按钮"/>
+		</td> 
+	</tr>
+	</table>
+	</form>
+	</body>
+	</html>
