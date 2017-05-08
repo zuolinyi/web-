@@ -1,0 +1,20 @@
+﻿a:link{
+	text-decoration:none;
+}
+#one{
+	color:green;
+}
+#second{
+	color:orange;
+}
+h2{
+	color:gray;
+}
+p{
+	color:gray;
+	font-size:14px;
+}
+.third{
+	color:gray;
+	font-size:14px;
+}
